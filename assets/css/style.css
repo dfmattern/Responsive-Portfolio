@@ -121,3 +121,16 @@ hr {
   margin-right: 20px;
   margin-left: 20px;
 }
+
+@media screen and (max-width: 640px) {
+    .name {
+        background-color: orange;
+    }
+}
+   
+@media screen and(max-width: 768px) {
+    
+}
+@media screen and(max-width: 980px) {
+    
+}
