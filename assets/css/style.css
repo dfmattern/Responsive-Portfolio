@@ -150,7 +150,15 @@ h2 {
         width: 100%;
     }
     #masthead {
+        position: relative;
         max-width: 100%;
+        margin: 0 0 30px;
+    }
+    #main-container {
+        padding-top: 0;
+    }
+    nav {
+        padding-right: 10px;
     }
 }
 
@@ -172,6 +180,12 @@ h2 {
         float: none;
         width: auto;
         max-width: 100%;
+    }
+    #main-container {
+        padding-top: 0;
+    }
+    #masthead {
+        margin: 0 0 10px;
     }
 }
 
