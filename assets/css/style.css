@@ -149,6 +149,9 @@ h2 {
     .main-section {
         width: 100%;
     }
+    #masthead {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -164,6 +167,11 @@ h2 {
     }
     nav {
         text-align: center;
+    }
+    .auth-image {
+        float: none;
+        width: auto;
+        max-width: 100%;
     }
 }
 
